@@ -6,7 +6,6 @@ from model import predict_price, load_artifacts
 
 app=FastAPI(title="Car price prediction")
 
-# Add CORS middleware
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],

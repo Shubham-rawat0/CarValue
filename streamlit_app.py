@@ -7,8 +7,9 @@ st.set_page_config(
     layout="wide"
 )
 
-API_URL = "http://127.0.0.1:8000/predict"
-
+API_URL =(
+    "https://carvalue-r1kw.onrender.com/predict" or
+      "http://127.0.0.1:8000/predict")
 
 st.markdown("""
 <style>
@@ -381,7 +382,7 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-# ------------------- FORM -------------------
+
 st.markdown('<div class="form-section">', unsafe_allow_html=True)
 st.markdown('<div class="section-label">Vehicle Details</div>', unsafe_allow_html=True)
 

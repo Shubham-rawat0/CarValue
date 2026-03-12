@@ -1,7 +1,9 @@
-joblib
-pandas
-streamlit
 fastapi
-pydantic
-uvicorn
+uvicorn[standard]
+pandas
+numpy
 scikit-learn
+joblib
+pydantic
+streamlit
+requests
